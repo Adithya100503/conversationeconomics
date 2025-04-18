@@ -61,7 +61,7 @@ const quizData = {
             correctAnswer: 1
         }
     ],
-    quiz2: [
+    quiz3: [
         {
             question: "is used to identify which potential impacts are relevant to assess.",
             options: ["screening", "scoping", "reporting", "review"],
@@ -113,7 +113,7 @@ const quizData = {
             correctAnswer: 2
         }
     ],
-    quiz3: [
+    quiz4: [
         {
             question: "Which of these is a deterministic factor?",
             options: ["environmental variation", "forest fire", "death rate", "diseases"],
@@ -170,7 +170,7 @@ const quizData = {
             correctAnswer: 0
         }
     ],
-    quiz4: [
+    quiz5: [
         {
             question: "\"a measure of the responsiveness of quantity demanded or quantity supplied to a change in one of its determinants\" is",
             options: ["elasticity", "responsivity", "demand-supply equilibrium", "pricing"],
@@ -222,7 +222,7 @@ const quizData = {
             correctAnswer: 1
         }
     ],
-    quiz5: [
+    quiz6: [
         {
             question: "\"the claim that, other things being equal, the quantity demanded of a good falls when the price of the good rises\" is a statement of",
             options: ["law of demand", "law of supply", "law of quantity demanded", "law of quantity supplied"],
@@ -274,7 +274,7 @@ const quizData = {
             correctAnswer: 0
         }
     ],
-    quiz6: [
+    quiz7: [
         {
             question: "\"the price of a good that prevails in the world market for that good” is the definition of",
             options: ["export price", "import price", "world price", "domestic price"],
@@ -326,7 +326,7 @@ const quizData = {
             correctAnswer: 1
         }
     ],
-    quiz7: [
+    quiz8: [
         {
             question: "For a positive consumption externality, ",
             options: ["SMB = PMB", "SMB = PMB − MD", "SMB = PMB + MB", "SMC = PMC / MD"],
@@ -378,7 +378,7 @@ const quizData = {
             correctAnswer: 1
         }
     ],
-    quiz8: [
+    quiz9: [
         {
             question: "\"costs that have already been committed and cannot be recovered\" are",
             options: ["fixed costs", "variable costs", "marginal costs", "sunk costs"],
@@ -430,7 +430,7 @@ const quizData = {
             correctAnswer: 0
         }
     ],
-    quiz9: [
+    quiz10: [
         {
             question: "\"an absolute level of income set by the government for each family size below which a family is deemed to be in poverty\" is known as",
             options: ["deprivation line", "poverty line", "deprivation index", "poverty index"],
@@ -482,7 +482,7 @@ const quizData = {
             correctAnswer: 0
         }
     ],
-    quiz10: [
+    quiz11: [
         {
             question: "\"an action taken by an uninformed party to induce an informed party to reveal information\" is known as",
             options: ["signalling", "screening", "informing", "heuristics"],
@@ -534,7 +534,7 @@ const quizData = {
             correctAnswer: 3
         }
     ],
-    quiz11: [
+    quiz2: [
         {
             question: "Which of these is a pillar of sustainability",
             options: ["social sustainability", "industrial sustainability", "agricultural sustainability", "trans-boundary sustainability"],
