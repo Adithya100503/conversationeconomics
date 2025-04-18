@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conservation Economics Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="quiz-title">Conservation Economics Quiz</h1>
+            <div class="quiz-info">
+                <span id="question-count">Question 1 of 10</span>
+                <span id="score">Score: 0</span>
+            </div>
+        </header>
+        
+        <div class="quiz-container">
+            <div id="question-container">
+                <h2 id="question">Question text goes here</h2>
+                <div id="options-container" class="options-grid">
+                    <!-- Options will be inserted here by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="navigation-buttons">
+                <button id="prev-btn" class="nav-btn">Previous</button>
+                <button id="next-btn" class="nav-btn">Next</button>
+                <button id="submit-btn" class="nav-btn">Submit Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="results-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Quiz Results</h2>
+            <p id="final-score">Your score: 0/10</p>
+            <p id="percentage">0%</p>
+            <button id="restart-btn">Take Another Quiz</button>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

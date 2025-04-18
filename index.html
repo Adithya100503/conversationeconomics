@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conservation Economics Quizzes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Conservation Economics Quizzes</h1>
+            <p>Test your knowledge of Conservation Economics concepts</p>
+        </header>
+        
+        <div class="quiz-selection">
+            <h2>Select a Quiz</h2>
+            <div class="quiz-buttons">
+                <button onclick="startQuiz(1)">Quiz 1</button>
+                <button onclick="startQuiz(2)">Quiz 2</button>
+                <button onclick="startQuiz(3)">Quiz 3</button>
+                <button onclick="startQuiz(4)">Quiz 4</button>
+                <button onclick="startQuiz(5)">Quiz 5</button>
+                <button onclick="startQuiz(6)">Quiz 6</button>
+                <button onclick="startQuiz(7)">Quiz 7</button>
+                <button onclick="startQuiz(8)">Quiz 8</button>
+                <button onclick="startQuiz(9)">Quiz 9</button>
+                <button onclick="startQuiz(10)">Quiz 10</button>
+                <button onclick="startQuiz(11)">Quiz 11</button>
+                <button onclick="startQuiz('random')">Random Mixed Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function startQuiz(quizNumber) {
+            localStorage.setItem('selectedQuiz', quizNumber);
+            window.location.href = 'quiz.html';
+        }
+    </script>
+</body>
+</html>
